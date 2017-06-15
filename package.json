@@ -1,5 +1,5 @@
 {
-	"name": "minify-all",
+	"name": "node-minify-all",
 	"version": "1.0.0",
 	"license": "MIT",
 	"description": "Minifies CSS, JavaScripts and Images under the current directory tree.",
@@ -40,6 +40,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/snigbhaumik/minify-all.git"
+		"url": "https://github.com/snigbhaumik/node-minify-all.git"
 	}	
 }
