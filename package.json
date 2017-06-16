@@ -1,6 +1,6 @@
 {
   "name": "node-minify-all",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "license": "MIT",
   "description": "Minifies CSS, JavaScripts and Images under the current directory tree.",
   "readme": "Minifies CSS, JavaScripts and Images under the current directory tree.",
