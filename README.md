@@ -55,6 +55,21 @@ Runs all the above three tasks, minifiying all images, CSS and JS files.
 ```
 
 
+## API
+Use the `minify-all-api` for this.
+```js
+var minify = require('node-minify-all/minify-all-api');
+
+var opts = {
+	rootpath: 'myfolder',
+	mode: 'all',
+	backups: false
+};
+
+minify.process(opts);
+```
+
+
 # Dependencies
 - [gulp](https://www.npmjs.com/package/gulp)
 - [imagemin](https://www.npmjs.com/package/imagemin)
