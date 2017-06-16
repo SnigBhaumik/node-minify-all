@@ -1,45 +1,46 @@
 {
-  "name": "node-minify-all",
-  "version": "1.1.0",
-  "license": "MIT",
-  "description": "Minifies CSS, JavaScripts and Images under the current directory tree.",
-  "readme": "Minifies CSS, JavaScripts and Images under the current directory tree.",
-  "keywords": [
-    "css",
-    "javascript",
-    "image",
-    "minifier",
-    "directory tree"
-  ],
-  "main": "gulpfile.js",
-  "scripts": {
-    "build": "gulp gulpfile.js",
-    "test": "standard"
-  },
-  "dependencies": {
-    "find": "^0.2.7",
-    "foreach": "^2.0.5",
-    "fs-extra": "^3.0.1",
-    "node-minify": "^2.1.1",
-    "gulp": "^3.7.0",
-    "imagemin": "^5.3.1",
-    "imagemin-jpeg-recompress": "^5.1.0",
-    "imagemin-jpegtran": "^5.0.2",
-    "imagemin-pngquant": "^5.0.1",
-    "imagemin-optipng": "^5.2.1",
-    "imagemin-jpegoptim": "^5.1.0"
-  },
-  "author": {
-    "name": "Snig Bhaumik",
-    "email": "snigbb@hotmail.com",
-    "url": "snigbhaumik.com"
-  },
-  "_npmUser": {
-    "name": "snigbb",
-    "email": "snigbb@hotmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/snigbhaumik/node-minify-all.git"
-  }
+	"name": "node-minify-all",
+	"version": "1.1.0",
+	"license": "MIT",
+	"description": "Minifies CSS, JavaScripts and Images under the current directory tree.",
+	"readme": "Minifies CSS, JavaScripts and Images under the current directory tree.",
+	"keywords": [
+		"css",
+		"javascript",
+		"image",
+		"minifier",
+		"directory tree"
+	],
+	"main": "index.js",
+	"scripts": {
+		"build": "gulp gulpfile.js",
+		"test": "standard"
+	},
+	"dependencies": {
+		"find": "^0.2.7",
+		"yargs": "^8.0.2",
+		"foreach": "^2.0.5",
+		"fs-extra": "^3.0.1",
+		"node-minify": "^2.1.1",
+		"gulp": "^3.7.0",
+		"imagemin": "^5.3.1",
+		"imagemin-jpeg-recompress": "^5.1.0",
+		"imagemin-jpegtran": "^5.0.2",
+		"imagemin-pngquant": "^5.0.1",
+		"imagemin-optipng": "^5.2.1",
+		"imagemin-jpegoptim": "^5.1.0"
+	},
+	"author": {
+		"name": "Snig Bhaumik",
+		"email": "snigbb@hotmail.com",
+		"url": "snigbhaumik.com"
+	},
+	"_npmUser": {
+		"name": "snigbb",
+		"email": "snigbb@hotmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/snigbhaumik/node-minify-all.git"
+	}	
 }
