@@ -5,6 +5,7 @@ Minifies CSS, JavaScripts and Images under the current directory tree with gulp 
 # What's new?
 - Of course, lots of image, js, css minifiers are available around. The difference is here we can write individual business rules per file (for example, in case you don't want a particular file not to be minified).
 - You can run individual tasks or all the tasks or any combination of these.
+- We had this requirement of minifying and compressing artefacts before theme and portlet build in Liferay. Since somehow Liferay does not automatically minify all these files before compiling and building, we had to manually trigger the minification process prior to build. This module is used in that build process by Jenkins job and pipeline.
 
 
 # Usage

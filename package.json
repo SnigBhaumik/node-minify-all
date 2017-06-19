@@ -9,7 +9,12 @@
     "javascript",
     "image",
     "minifier",
-    "directory tree"
+    "directory tree",
+	"liferay",
+	"build",
+	"jenkins",
+	"theme",
+	"liferay-theme"
   ],
   "main": "index.js",
   "scripts": {
